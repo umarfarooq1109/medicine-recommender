@@ -73,7 +73,7 @@ if st.button("🔍 Predict Disease"):
         st.markdown(f"""
         <div style="background-color:#f0fdf4; padding:15px; border-radius:10px; margin-top:20px;">
             <h4 style="color:#388e3c;">📄 Description</h4>
-            <p>{results['description']}</p>
+            <p style="color:red;">{results['description']}</p>
         </div>
         """, unsafe_allow_html=True)
 
@@ -90,7 +90,7 @@ if st.button("🔍 Predict Disease"):
                 for item in items:
                     st.markdown(f"""
                     <div style="background-color:#f1f8e9; border-radius:10px; padding:10px; margin:5px 0;
-                                box-shadow:0 2px 6px rgba(0,0,0,0.08);">
+                                box-shadow:0 2px 6px rgba(0,0,0,0.08); color:red;">
                         {item}
                     </div>
                     """, unsafe_allow_html=True)
