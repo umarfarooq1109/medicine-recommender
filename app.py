@@ -11,7 +11,7 @@ symptoms_df = pd.read_csv("datasets/Training.csv")
 symptom_list = symptoms_df.columns[:-1]
 
 # Streamlit page config
-st.set_page_config(page_title="bhaai's Health AI", layout="centered")
+st.set_page_config(page_title=" Health  Care", layout="centered")
 
 # ----------------------------------------
 # ✅ Custom Header
@@ -39,8 +39,8 @@ st.markdown("""
 </style>
 <div class="header">
     <img src="https://cdn-icons-png.flaticon.com/512/4320/4320337.png" width="80">
-    <h1>Farooq's Health Advisor AI 🧠</h1>
-    <p>Your AI-powered Medical & Fitness Assistant</p>
+    <h1>Farooq's Health Advisor 🧠</h1>
+    <p>Your ML Medical &  Assistant</p>
 </div>
 """, unsafe_allow_html=True)
 
